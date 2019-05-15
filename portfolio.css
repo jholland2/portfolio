@@ -1,0 +1,437 @@
+body {
+    background-color: floralwhite;
+}
+
+#app {
+    width: ;
+}
+
+.name {
+    flex:1;
+    text-align: center;
+    color: lightcoral;
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:340%;
+    line-height: 45px;
+    margin: 15px;
+    width: 95vw
+}
+
+
+.menu {
+    flex: 1;
+    padding-left: 10px;
+    color: pink;
+    font-family: fieldwork, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow:1.2px 1.2px coral;
+    font-size: 20px;
+}
+
+#line {
+    border-style: solid;
+    width: 98vw;
+    color: darkslategray
+}
+
+#middle {
+    width:47.9vw;
+    margin: auto;
+}
+
+.authinformation {
+    width: 170px;
+    height: 50px;
+    color: pink;
+    font-size: 22px;
+    font-family: fieldwork, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    margin: auto;
+    margin-top: 15%;
+    text-shadow:1.2px 1.2px coral;
+}
+
+.arrow {
+    width: 15%;
+    padding-top: 10px;
+    filter: drop-shadow(0.5px 1px 2px coral);
+    transition: 0.5s;
+    
+}
+.arrow2 {
+    width: 5%;
+    padding-top: 10px;
+    filter: drop-shadow(0.5px 1px 2px coral);
+    transition: 0.5s;
+    margin: auto;
+}
+
+#centerarea {
+    display: flex;
+    text-align: center;
+    width: 95vw
+}
+
+#welcome {
+    margin: auto;
+    font-size: 40px;
+    color: darkslategray;
+    font-family: fieldwork, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 50px;
+    margin-top: -50px;
+}
+#linked{
+    font-family: fieldwork, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: lightpink;
+    filter: drop-shadow(1px 0px 0.2px coral);
+    text-decoration-line: underline;
+}
+
+.infoZone {
+    margin-top: 5%;
+    flex: 5;
+    width: 100vw;
+    font-family: fieldwork,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: static;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: none;
+    transition: height 15s;
+    flex-direction: row;
+}
+
+#pic{
+    background-size: contain;
+    background-image: url("assets/IMG_7174.jpg");
+    width: 120px;
+    height: 170px
+}
+
+#moreInfo {
+    padding-left: 10px;
+    flex: 1;
+    width: 250px;
+    padding: 10px;
+}
+
+#social {
+    flex: 1;
+    width: 500px
+}
+
+#contact {
+    flex: 1;
+}
+
+.bottomline {
+    border-style: solid;
+    color: darkslategray;
+}
+
+.foot{
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    width: 98vw;
+}
+
+.footing {
+    float: right;
+    color: lightslategray;
+    font-family: fieldwork, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 10px;
+    margin-bottom:10px
+}
+
+.label {
+    color: darkslategray;
+    font-family: fieldwork, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.project{
+    height: 250px;
+    border-style: none;
+    margin: 15px;
+    width: 95vw;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.projtitle {
+    font-family: fieldwork-hum,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    filter: drop-shadow(2px 3px 6px brown);
+}
+.projecttitle {
+    font-family: fieldwork, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 19px;
+    color: coral;
+}
+
+#grid1 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    
+}
+
+#grid2 {
+    display: flex;
+    flex-direction: row;
+    flex: 3
+}
+
+#grid3 {
+    display: flex;
+    flex-direction: row;
+    flex: 3
+}
+#grid4 {
+    display: flex;
+    flex-direction: row;
+    flex: 2
+}
+
+#proj1 {
+    flex: 2;
+    background-image: url(assets/logos-01.png);
+    background-size: contain;
+}
+
+#proj2 {
+    flex: 3;
+    background-image: url(assets/milkad.png);
+    background-size: contain;
+}
+#proj3 {
+    flex: 3;
+    background-image: url(assets/eaturgreens.png);
+    background-size: contain;
+}
+
+#proj4 {
+    flex: 4;
+    background-image: url(assets/previewSwiss.png);
+    background-size: contain;
+}
+
+#proj5 {
+    flex: 3;
+    background-image: url(assets/musicvid.png);
+    background-size: contain;
+}
+
+#proj7 {
+    flex: 5;
+    background-image: url(assets/mythbusterprev.png);
+    background-size: contain;
+}
+
+#proj8 {
+    flex: 3;
+    background-image: url(assets/persona1.png);
+    background-size: contain;
+}
+
+#proj9 {
+    flex: 1;
+    background-image: url(assets/album.png);
+    background-size: contain;
+}
+#proj10 {
+    flex: 1;
+    background-image: url(assets/SmegProj.png);
+    background-size: contain;
+}
+
+#doubleExp {
+    background-size: contain;
+    background-image: url("assets/doubleexposure.png");
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px
+}
+
+
+#vid {
+    width: 85vw;
+    margin: auto;
+}
+
+.maindesc {
+    font-family: fieldwork, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    width: 70vw;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.headi {
+    display: flex;
+    flex-direction: column;
+}
+
+.projvid{
+    border-style: solid;
+    color: lightcoral;
+    border-width: medium;
+    margin: auto;
+    padding-top: 5px;
+    width: 85vw
+}
+
+.infocard{
+    padding-left: 55px;
+}
+
+.projtitle{
+    color: coral;
+    font-family: fieldwork, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.projdsc{
+    font-family: fieldwork,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: static;
+    font-size: 14px;
+    width: 75vw;
+    padding-bottom: 50px;
+}
+
+.link {
+    color: pink;
+    font-family: fieldwork,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow:1.2px 1.2px coral;
+    font-size: 15px
+}
+
+.arrow3 {
+    width: 40px;
+    padding-top: 10px;
+    filter: drop-shadow(1px 1px 3px red);
+    transition: 1.5s;
+    position: fixed;
+    bottom: 35px;
+    left: 47.9%;
+    z-index: 1;
+}
+
+#backup {
+    color: pink;
+    font-family: fieldwork,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow:1.2px 1.2px coral;
+    font-size: 150%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+#backup2 {
+    color: pink;
+    font-family: fieldwork,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow:1.2px 1.2px coral;
+    font-size: 150%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    width: 95vw;
+}
+#backup3 {
+    color: pink;
+    font-family: fieldwork,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow:1.2px 1.2px coral;
+    font-size: 150%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    bottom: -210px
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#contactMe {
+    color: darkslategray;
+    font-family: fieldwork, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+#Cform {
+    border-style: solid;
+    color: lightcoral;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px
+}
+
+input {
+     float: left;
+}
+
+#fn, #ln {
+    width: 40%;
+    margin-bottom:5px;
+}
+
+#email {
+    width: 80%;
+}
+
+#txtarea{
+    width: 70%;
+    height: 110px;
+    margin-top: 5px;
+    float: left;
+}
+
+#subBut {
+    width: 33vw;
+    float: left;
+    margin-top: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>420degrees</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+        <link href="slideshow.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="pointer">
+         <div class="menu" ><span onclick="gallery()" onmouseenter="menpress()" onmouseleave="menout()">Project Gallery</span></div>
+        </div>
+        <h1 class="name">420°<br>Web Application</h1>
+        <div class="maindesc">
+                <em><b>This is a web app I created using HTML5, CSS, and Javascript.</b></em><br>View this slideshow to see a mockup of each screen<br><br>
+                <div onclick="dropdown6()"><img src="down.svg" class="arrow2"></div>
+            </div>
+        <div>
+            <br>
+            <br>
+                    <!-- Slideshow -->
+        <div class="slideshowCont">
+            
+          <div id="slid" class="slides fadeout">
+            <div class="txtnum">1 / 7</div>
+            <img src="assets/420stuff/homescreen.png" style="width:30%">
+            <div class="slideCap">Home Screen</div>
+          </div>
+
+          <div class="slides fadeout">
+            <div class="txtnum">2 / 7</div>
+            <img src="assets/420stuff/edible.png" style="width:30%"><div class="slideCap">Flavour Page</div>
+          </div>
+
+          <div class="slides fadeout">
+            <div class="txtnum">3 / 7</div>
+            <img src="assets/420stuff/recipe.png" style="width:30%">
+            <div class="slideCap">Recipe Choice</div>
+          </div>
+            
+          <div class="slides fadeout">
+            <div class="txtnum">4 / 7</div>
+            <img src="assets/420stuff/serving.png" style="width:30%">
+            <div class="slideCap">Serving Page</div>
+          </div>
+            
+          <div class="slides fadeout">
+            <div class="txtnum">5 / 7</div>
+            <img src="assets/420stuff/dosage.png" style="width:30%">
+            <div class="slideCap">Dosage Page</div>
+          </div>
+            
+          <div class="slides fadeout">
+            <div class="txtnum">6 / 7</div>
+            <img src="assets/420stuff/cannabutter.png" style="width:70%">
+            <div class="slideCap">Cannabutter Recipe Page</div>
+          </div>
+            
+          <div class="slides fadeout">
+            <div class="txtnum">7 / 7</div>
+            <img src="assets/420stuff/bake.png" style="width:70%">
+            <div class="slideCap">Recipe &amp; Bake Page</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a id="backbut" onclick="plusSlide(-1)">&#10094;</a>
+          <a id="nextbut" onclick="plusSlide(1)">&#10095;</a>
+        <br>
+        </div>
+        </div>
+         <script src="app.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    </body>
+</html>

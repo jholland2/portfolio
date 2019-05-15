@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Project Gallery</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="pointer">
+         <div class="menu" onclick="homebut()" ><span onmouseenter="menpress()" onmouseleave="menout()">Home</span></div>
+        
+        
+        <h1 class="name">Project Gallery</h1>
+        <div class="pointer">
+        <img src="down.svg" class="arrow3" onclick="goDown()">
+        </div>
+        <div id="grid1">
+            <div onmouseover="select1()" onmouseout="deselect1()" class="project" id="proj1" onclick="page1()"><span style="color: floralwhite" class="projtitle">Branding &amp; Logos<br>Adobe Illustrator</span>
+            </div>
+            <div class="project" id="proj2" onmouseover="select2()" onmouseout="deselect2()" onclick="page2()"><span class="projtitle" style="color: whitesmoke">Mock Advertisment for<br>Milk Makeup</span>
+            </div>
+        </div>
+        <div id="grid2">
+            <div class="project" id="proj4" onmouseover="select4()" onmouseout="deselect4()" onclick="page4()"><span style="color: floralwhite" class="projtitle">Swiss Poster Designs</span>
+            </div>
+            <div class="project" id="proj3" onmouseover="select3()" onmouseout="deselect3()" onclick="page3()">
+                <span style="color: floralwhite" class="projtitle">420° Web App</span>
+            </div>
+            <div class="project" id="proj5" onmouseover="select5()" onmouseout="deselect5()" onclick="page5()">
+                <span style="color: floralwhite" class="projtitle">Music Video<br>Adobe Premiere</span>
+            </div>
+        </div>
+        
+        <div id="grid3">
+            <div class="project" id="proj7" onmouseover="select7()" onmouseout="deselect7()" onclick="page7()">
+                <span style="color: floralwhite" class="projtitle">MythBusters Animation<br>Adobe After Effects</span>
+            </div>
+        </div>
+         
+        <div id="grid4">
+            <div class="project" id="proj9" onmouseover="select9()" onmouseout="deselect9()" onclick="page9()">
+                <span style="color: floralwhite" class="projtitle">Adobe Photoshop</span>
+            </div>
+            <div class="project" id="proj10" onmouseover="select10()" onmouseout="deselect10()" onclick="page10()">
+                <span style="color: floralwhite" class="projtitle">Realistic Mechanical Object<br>Adobe Illustrator</span>
+            </div>
+        </div>
+        
+        <div class="pointer" id="backup" onclick="backUp()">Back to Top</div>
+            </div>
+         <script src="app.js"></script>
+    </body>
+</html>

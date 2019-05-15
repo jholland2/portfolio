@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dynamic Content Design</title>
+        <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="pointer">
+         <div class="menu" onclick="gallery()" ><span onmouseenter="menpress()" onmouseleave="menout()" >Project Gallery</span>
+        </div><br>
+        <div class="headi">
+            <h1 class="name">Dynamic Content Development</h1>
+            <div class="maindesc">
+                <em><b>Mock 'Milk Makeup' Advertisment</b></em><br>This is a midterm project I created using HTML5, CSS, and Javascript<br><br>
+                <div onclick="dropdown()"><img src="down.svg" class="arrow2"></div>
+            </div>
+        </div>
+            <div class="projvid">
+                <video src="assets/milkAd.mov" id="vid" controls></video>
+            </div>
+        <div class="infocard">
+            <div class="projecttitle">
+                    Milk Makeup Mock Advertisment
+            </div>
+            <div class="projdsc">
+                    I have provided a screen recording of the dynamic content in action. All of the products on display were created in Adobe Illustrator.
+            </div>
+        </div>
+
+        <div class="foot">
+                 <hr class="bottomline">
+                <footer class="footing">Jemma Holland, 2019</footer>
+            </div>
+        </div>
+         <script src="app.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    </body>
+</html>
